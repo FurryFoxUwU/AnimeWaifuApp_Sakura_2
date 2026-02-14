@@ -1,0 +1,85 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Background circle -->
+    <path
+        android:fillColor="#FFE4F0"
+        android:pathData="M100,100m-90,0a90,90 0,1 1,180 0a90,90 0,1 1,-180 0"/>
+    
+    <!-- Face -->
+    <path
+        android:fillColor="#FFB6D9"
+        android:pathData="M100,60 Q80,50 70,70 Q60,90 70,110 Q80,120 100,120 Q120,120 130,110 Q140,90 130,70 Q120,50 100,60Z"/>
+    
+    <!-- Eyes -->
+    <circle
+        android:fillColor="#000000"
+        android:cx="85"
+        android:cy="85"
+        android:radius="8"/>
+    <circle
+        android:fillColor="#000000"
+        android:cx="115"
+        android:cy="85"
+        android:radius="8"/>
+    
+    <!-- Eye sparkles -->
+    <circle
+        android:fillColor="#FFFFFF"
+        android:cx="87"
+        android:cy="83"
+        android:radius="3"/>
+    <circle
+        android:fillColor="#FFFFFF"
+        android:cx="117"
+        android:cy="83"
+        android:radius="3"/>
+    
+    <!-- Mouth -->
+    <path
+        android:strokeColor="#FF69B4"
+        android:strokeWidth="3"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M85,100 Q100,110 115,100"/>
+    
+    <!-- Blush -->
+    <circle
+        android:fillColor="#FFB6C1"
+        android:fillAlpha="0.5"
+        android:cx="70"
+        android:cy="95"
+        android:radius="8"/>
+    <circle
+        android:fillColor="#FFB6C1"
+        android:fillAlpha="0.5"
+        android:cx="130"
+        android:cy="95"
+        android:radius="8"/>
+    
+    <!-- Hair -->
+    <path
+        android:fillColor="#8B4789"
+        android:pathData="M100,30 Q60,35 55,70 Q50,50 65,40 Q70,25 85,28 Q95,20 100,30Z"/>
+    <path
+        android:fillColor="#8B4789"
+        android:pathData="M100,30 Q140,35 145,70 Q150,50 135,40 Q130,25 115,28 Q105,20 100,30Z"/>
+    
+    <!-- Hair bangs -->
+    <path
+        android:fillColor="#8B4789"
+        android:pathData="M90,50 Q85,55 85,65 L90,65 Q92,55 90,50Z"/>
+    <path
+        android:fillColor="#8B4789"
+        android:pathData="M100,45 Q95,50 95,60 L100,60 Q102,50 100,45Z"/>
+    <path
+        android:fillColor="#8B4789"
+        android:pathData="M110,50 Q105,55 105,65 L110,65 Q112,55 110,50Z"/>
+    
+    <!-- Heart accessory -->
+    <path
+        android:fillColor="#FF1493"
+        android:pathData="M140,60 Q135,55 130,60 Q130,65 135,70 Q140,65 140,60Z"/>
+</vector>

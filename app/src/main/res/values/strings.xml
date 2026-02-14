@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Anime Waifu</string>
+    <string name="settings">Настройки</string>
+    <string name="clear_chat">Очистить чат</string>
+    <string name="api_key">API Ключ</string>
+    <string name="save">Сохранить</string>
+    <string name="send">Отправить</string>
+    <string name="type_message">Напиши что-нибудь...</string>
+</resources>

@@ -1,0 +1,47 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    
+    <!-- Background -->
+    <circle
+        android:fillColor="#FFE4F0"
+        android:cx="16"
+        android:cy="16"
+        android:radius="15"/>
+    
+    <!-- Face -->
+    <circle
+        android:fillColor="#FFB6D9"
+        android:cx="16"
+        android:cy="16"
+        android:radius="10"/>
+    
+    <!-- Eyes -->
+    <circle
+        android:fillColor="#000000"
+        android:cx="13"
+        android:cy="15"
+        android:radius="1.5"/>
+    <circle
+        android:fillColor="#000000"
+        android:cx="19"
+        android:cy="15"
+        android:radius="1.5"/>
+    
+    <!-- Mouth -->
+    <path
+        android:strokeColor="#FF69B4"
+        android:strokeWidth="1"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M13,18 Q16,20 19,18"/>
+    
+    <!-- Hair -->
+    <path
+        android:fillColor="#8B4789"
+        android:pathData="M16,8 Q10,9 9,15 L10,15 Q11,10 16,8Z"/>
+    <path
+        android:fillColor="#8B4789"
+        android:pathData="M16,8 Q22,9 23,15 L22,15 Q21,10 16,8Z"/>
+</vector>
