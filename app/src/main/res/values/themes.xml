@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.AnimeWaifuApp" parent="Theme.MaterialComponents.DayLight.NoActionBar">
+    <style name="Theme.AnimeWaifuApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/pink_primary</item>
-        <item name="colorPrimaryDark">@color/pink_dark</item>
-        <item name="colorAccent">@color/purple_primary</item>
-        <item name="android:statusBarColor">@color/pink_primary</item>
-        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorPrimaryVariant">@color/pink_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/purple_primary</item>
+        <item name="colorSecondaryVariant">@color/purple_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">@color/pink_dark</item>
     </style>
 </resources>
